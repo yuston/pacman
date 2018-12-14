@@ -312,7 +312,7 @@ Pacman.User = function (game, map) {
 
     function initUser() {
         score = 0;
-        lives = 3;
+        lives = 1;
         newLevel();
     }
     
@@ -946,6 +946,7 @@ var PACMAN = (function () {
                     timerStart = tick;
                 } else if (ghosts[i].isDangerous()) {
                     audio.play("die");
+                    dialog("Message from Yussuf");
                     setState(DYING);
                     timerStart = tick;
                 }
