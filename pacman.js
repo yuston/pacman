@@ -559,7 +559,7 @@ Pacman.Map = function (size) {
 
         var i, j, p, line;
         
-        ctx.strokeStyle = "#0000FF";
+        ctx.strokeStyle = "#FF0000";
         ctx.lineWidth   = 5;
         ctx.lineCap     = "round";
         
