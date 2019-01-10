@@ -946,7 +946,7 @@ var PACMAN = (function () {
                     timerStart = tick;
                 } else if (ghosts[i].isDangerous()) {
                     audio.play("die");
-                    dialog("Message when you die");
+                    dialog("Happy New Year :-)");
                     setState(DYING);
                     timerStart = tick;
                 }
